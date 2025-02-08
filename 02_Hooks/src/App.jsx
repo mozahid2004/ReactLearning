@@ -3,10 +3,10 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(10)
+  let [counter, setCounter] = useState(3)
 
   const addValue = () => {
-    counter < 20 ? setCounter(counter + 1) : ""
+    counter < 5? setCounter(counter + 1) : ""
   }
   const removeValue = () => {
     counter > 0 ?  setCounter(counter - 1) : 0

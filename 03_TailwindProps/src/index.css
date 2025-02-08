@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.talCard{
+  width: 300px;  
+  border: 2px solid;
+  margin: 2px;
+}
+body{
+  background-color: rgb(224, 31, 89);
+}
