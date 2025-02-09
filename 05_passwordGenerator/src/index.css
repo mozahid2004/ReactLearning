@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+.conatiner{
+  max-width: 600px;
+  border: 2px solid yellow;
+  min-height: 200px;
+  margin: 200px auto;
+  background-color: #212121;
+  border-radius: 6px;
+}
+.mainInput{
+  margin-top: 40px;
+
+}
+#mainInput{
+  width: 60%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 34px;
+  border: none;
+  margin: 0 auto;
+  outline: none;
+}
+#submit{
+  width: 80px;
+  height: 36px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: rgb(39, 89, 239);
+  color: aliceblue;
+  font-weight: 400;
+  padding: 10px;
+}
+.option{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
