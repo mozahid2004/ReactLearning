@@ -1,7 +1,7 @@
 import React from 'react'
 
 function CountryCard(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <>
       <a className="country-card" href="" >

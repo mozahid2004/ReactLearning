@@ -11,6 +11,9 @@ header {
   color: #333; /* Dark text */
   padding: 15px 20px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 body{
   background:#ccc;
@@ -204,3 +207,32 @@ p:hover {
   justify-content: center;
   align-items: center;
 }
+
+.themeBtn {
+  background-color: #222;  /* Dark background */
+  color: white;            /* Light text */
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.themeBtn:hover {
+  background-color: #444;
+}
+
+/* Light Mode Button */
+.lightMode {
+  background-color: #fdd835; /* Yellow background for Light Mode */
+  color: black;
+}
+
+/* Hover Effect for Light Mode */
+.lightMode:hover {
+  background-color: #ffeb3b;
+}
+ 
